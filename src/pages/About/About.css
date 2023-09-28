@@ -129,7 +129,11 @@
         align-items: end;
         height: fit-content;
     }
-
+    .icon3{
+        width: 40px;
+        height: 40px;
+        margin-left: 5px;
+    }
 
 }
 
@@ -145,6 +149,8 @@
     .about_bio{
         gap:1.5rem;
     }
+
+
 
     .about_box{
         background-color: inherit;

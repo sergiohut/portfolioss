@@ -51,4 +51,9 @@
         .contacto p{
           display: none;
         }
+
+        .contacto img{
+          position: relative;
+          right: 1px;
+        }
       }
