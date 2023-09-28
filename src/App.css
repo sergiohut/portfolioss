@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    color: inherit;
+}
+
+
+body{
+  font-weight: 300;
+  background-color: var(--primarycolor);
+  position: relative;
+
+}
+
+html,body {
+  overflow-x: hidden;
+  margin:0px;
+  padding:0px;
+}
+
+
+
+
+a{
+  font-weight: 600;
+}
+
+
+.dividerH{
+  border-bottom: 3px solid black;
+  height: 1px;
+  width: 80%;
+  display: block;
+  margin: 0 auto
+}
+
+
+.icon2{
+  width:50px;
+  filter: saturate(0.8);
+}
+
+.icon3{
+  width: 24px;
+}
+
+.icon4{
+  width: 100px;
+  filter: saturate(0.8);
+}
+
+
+
+.icon5{
+  width: 50px;
+  filter: saturate(0.8);
+}
+
+.bold{
+  font-weight: 600;
+}

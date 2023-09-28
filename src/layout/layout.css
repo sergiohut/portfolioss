@@ -1,0 +1,7 @@
+.pf-layout{
+    display: grid;
+    grid-template-rows:
+      20vh
+      1fr
+      1fr;
+}

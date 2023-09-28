@@ -1,0 +1,90 @@
+.hero{
+    height: 80vh;
+    padding: 3rem;
+    display: flex;
+    max-width: 1320px;
+    margin: 0 auto;
+    gap: 4rem;
+    justify-content: space-between;
+ 
+
+}
+.hero_btns{
+    display: flex;
+    justify-content: flex-end;
+    gap:1.5rem;
+}
+
+button{
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    border: none;
+    font-weight: 600;
+    display: flex;
+    align-items:end;
+    gap:1rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover{
+    background-color: var(--secondarycolor3);
+    color: white;
+}
+
+button:hover .icon{
+    filter: invert();
+}
+
+.contactBtn{
+    background-color:var(--highlightcolor);
+    transition: all 0.3s ease-in-out;
+}
+
+.hero_info{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+
+}
+
+.hero_image{
+    width: 50%;
+    max-height: 70vh;
+    object-fit: cover;
+}
+
+.space{  
+    height: 10vh;
+    display: block;
+}
+
+.icon{
+    width: 20px;
+    height: 20px;
+    transition: all 0.3s ease-in-out;
+    }
+
+
+    @media screen and (max-width: 800px){
+        .hero{
+
+          flex-direction: column-reverse;
+          padding: 0;
+          gap: 0;
+          height: fit-content;
+
+        }
+  
+        .hero_info{
+            padding: 3rem;      
+            width: 100%;
+        }
+
+        .hero_image{
+            width: 100vw;
+            height: 100vh;
+            object-fit: cover;
+        }
+      }

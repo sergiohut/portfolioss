@@ -1,0 +1,32 @@
+footer{
+    height: 10vh;
+    max-width: 1320px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 3rem;
+    gap: 12rem;
+    color: var(--secondarycolor3);
+}
+
+
+.footer_menu{
+    display: flex;
+    gap: 1.5rem;
+}
+
+.footer_social{
+    display: flex;
+    gap:1.5rem;
+}
+
+
+@media screen and (max-width: 1000px){
+    footer{
+        height: fit-content;
+        flex-direction: column;
+        gap: 0.5rem;
+        padding: 1.5rem 0 5rem;
+    }
+}

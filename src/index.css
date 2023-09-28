@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,500;0,600;0,800;1,200;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@300;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600&display=swap');
+
+
+:root {
+  --primarycolor: #d5d5d5;
+  --secondarycolor1: #53B8E9; 
+  --secondarycolor2 :#9A59B0; 
+  --secondarycolor3 :#605D5D;
+  --backgroundcolor: #A1A1A1;
+  --highlightcolor: #eda92c;   
+  --highlightcolor2:#EB5757;
+}
+
+body{
+  font-family: "Poppins", sans-serif;
+  width: 100vw;
+}
+

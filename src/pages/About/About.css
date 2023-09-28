@@ -1,0 +1,194 @@
+.about{
+    height: 69vh;
+    display: flex;
+    gap: 3rem;
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 1.5rem 3rem;
+    justify-content: space-between;
+    color: white;
+}
+
+.about_box{
+    height: fit-content;
+    background-color: #a1a1a1;
+    border-radius: 10px;
+    padding: 1.5rem;
+    width: 75%;
+    box-shadow: 5px 7px 12px -1px rgba(0,0,0,0.35);
+    -webkit-box-shadow: 5px 7px 12px -1px rgba(0,0,0,0.35);
+    -moz-box-shadow: 5px 7px 12px -1px rgba(0,0,0,0.35);
+}
+    
+.about_bio{
+    display: flex;
+}
+
+.portrait_img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 50%;
+    filter:brightness(1.1);
+    filter: saturate(0.8)
+}
+
+.about_info{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    text-align: justify;
+    padding: 0 1.5rem;
+}
+
+.about_portrait{
+    width: 20%;
+}
+
+
+.about_social{
+    color: black;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 0.5rem;
+    width: 20%;
+}
+
+.social{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.about_skills{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.animated_star{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 28%;
+    right: 18%;
+    animation: rotate 5s linear infinite both;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0)
+      }
+      100% {
+        transform: rotate(360deg)
+      }}
+
+.social_ilustration{
+    width: 200px;
+    min-width: 200px;
+}
+
+.animationPhone{
+    position: relative;
+    text-align: center;
+}
+
+.skills{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    align-items: flex-end;
+}
+
+.CV{
+    width: fit-content;
+    margin-left: auto;
+    margin-top:1.5rem;
+    color: black
+}
+
+.dividerH2{
+    border-bottom: 3px solid black;
+    height: 1px;
+    width: 80%;
+    display: none;
+    margin: 0 auto
+}
+@media screen and (max-width: 1000px){
+    .about_box{
+        width: 100%;
+    }
+    .about_social {
+        width: 60%;
+    }
+    .about{
+        flex-direction: column;
+        align-items: end;
+        height: fit-content;
+    }
+
+
+}
+
+@media screen and (max-width: 800px){
+    .about{
+        height: fit-content;
+        padding: 0;
+        gap: 0;
+        background-color: #a1a1a1;
+    }
+    .about, .about_bio{flex-direction: column;}
+
+    .about_bio{
+        gap:1.5rem;
+    }
+
+    .about_box{
+        background-color: inherit;
+        border-radius: 0;
+        box-shadow: none;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        padding: 0 1.5rem;
+    }
+    .about_box, .about_social {
+        width: 100%;
+    }
+
+    .about_portrait{
+        width: 100%;
+        padding: 0 1.5rem;
+        display: flex;
+        align-items: flex-end;
+        gap:1.5rem;
+    }
+    .portrait_img{
+        width: 40%;
+    }
+
+    .arrow{
+        width: 50%;
+        height: fit-content;
+    }
+
+    .about_skills, .about_portrait{
+        padding: 1.5rem;
+    }
+
+    .skills{
+        gap: 1rem;
+    }
+
+    .about_social{
+        align-items: center;
+        padding: 1.5rem;
+    }
+
+    .dividerH2{
+        display: block;
+    }
+
+}
