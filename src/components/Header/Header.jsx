@@ -38,8 +38,9 @@ const Header = () => {
 
       <nav className="navbar" id={stickyClass}>
       <div className="navbar_heading">
-        <img className="heading_logo" src={logo} alt="Sergio Santiago Logo"/>
-        <h1 className="heading_h1"> Desarrollo Web Fullstack</h1>
+      
+      <NavLink to="/"><img className="heading_logo" src={logo} alt="Sergio Santiago Logo"/></NavLink>
+      <NavLink to="/"><h1 className="heading_h1"> Desarrollo Web Fullstack</h1></NavLink>
       </div>
       <ul className='navbar_list'>
         <li>
@@ -56,7 +57,7 @@ const Header = () => {
       <div className={`burgerMenu ${clicked ? 'active' : '' }`}>
       <nav className="navBar_open">
         <div className="open_header container">
-        <img className="heading_logo" src={logo} alt="slack logo"/>
+        <NavLink to="/"><img className="heading_logo" src={logo} alt="Sergio Santiago Logo"/></NavLink>
         <CloseButton handleClick={handleClick}/>
         </div>
         <div className="open_menu">

@@ -11,7 +11,7 @@ const Footer = () => {
     <div>
     <ul className="footer_menu">
         <li>
-          <NavLink to="/">Home</NavLink>
+          <NavLink to="/">Inicio</NavLink>
         </li>
         <li>
           <NavLink to="/about">Acerca de mí</NavLink>
