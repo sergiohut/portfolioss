@@ -15,7 +15,7 @@ const Sticky_Contact = () => {
     const stickyContact = () => {
       if (window !== undefined) {
         let windowHeight = window.scrollY;
-        windowHeight > 300 ? setStickyClass('contacto') : setStickyClass('hidden');
+        windowHeight > 500 ? setStickyClass('contacto') : setStickyClass('hidden');
       }
     };
   return (
