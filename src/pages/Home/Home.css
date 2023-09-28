@@ -41,6 +41,8 @@ button:hover .icon{
     transition: all 0.3s ease-in-out;
 }
 
+
+
 .hero_info{
     width: 40%;
     display: flex;
@@ -80,11 +82,19 @@ button:hover .icon{
         .hero_info{
             padding: 3rem;      
             width: 100%;
+            height: 70vh;
+            justify-content: space-around;
         }
 
         .hero_image{
             width: 100vw;
-            height: 100vh;
+            height: 65vh;
             object-fit: cover;
+            display: flex;
+            justify-content: center;
+        }
+
+        .projectBtn{
+            display:none;
         }
       }

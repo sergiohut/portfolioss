@@ -21,7 +21,7 @@ const Header = () => {
     if (window !== undefined) {
       let windowHeight = window.scrollY;
       // window height changed for the demo
-      windowHeight > 150 ? setStickyClass('sticky-nav') : setStickyClass('');
+      windowHeight > 100 ? setStickyClass('sticky-nav') : setStickyClass('');
     }
   };
     const [clicked, setClicked] = useState(false)

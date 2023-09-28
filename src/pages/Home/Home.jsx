@@ -30,7 +30,7 @@ const Home = () => {
         <a href='mailto:sergiosantiagocarmona@gmail.es'>
           <button className='contactBtn'>Hablemos <img className='icon' src={contact_icon} alt="icono contacto"/></button>
         </a>          
-        <Link to="projects" activeClass="active" smooth spy duration={2000}> 
+        <Link className="projectBtn" to="projects" activeClass="active" smooth spy duration={2000}> 
           <button>Proyectos<img className='icon' src={portfolio_icon} alt="icono portfolio"/></button>
         </Link>
       </div>
