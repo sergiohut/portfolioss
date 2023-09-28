@@ -16,6 +16,7 @@ import MongoDBIcon from"./../../assets/icons/MongoDB-Logo.png"
 import gitIcon from"./../../assets/icons/git.png"
 import cvIcon from "./../../assets/icons/6721017.png"
 import contactIcon from "./../../assets/icons/contact-papperplane.svg"
+import CV from "./../../assets/CV 2023 Sergio Santiago Carmona.pdf"
 
 const About = () => {
   return (
@@ -25,8 +26,9 @@ const About = () => {
       <section className='about_box'>
         <div className='about_bio'> 
           <div className='about_portrait'>
-            <img className='portrait_img' src={Portrait}/>
-            <button className="contactBtn CV">Curriculum<img className='icon' src={cvIcon}/></button>
+            <img className='portrait_img' src={Portrait}/>        
+            <a href={CV} target="_blank">
+              <button className="contactBtn CV">Curriculum<img className='icon' src={cvIcon}/></button> </a>
           </div>
           <div className='about_info'>
             <h2> Hola!</h2>

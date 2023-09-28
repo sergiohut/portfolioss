@@ -83,7 +83,7 @@ button:hover .icon{
             padding: 3rem;      
             width: 100%;
             height: 70vh;
-            justify-content: space-around;
+            justify-content: center;
         }
 
         .hero_image{
