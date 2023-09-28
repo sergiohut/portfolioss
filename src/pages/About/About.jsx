@@ -1,5 +1,5 @@
 import "./About.css"
-
+import { useEffect } from "react"
 import Portrait from "../../assets/1678183992562.jpg"
 import social_ilustration from "./../../assets/mano y movil_Mesa de trabajo 1.png"
 import star from "./../../assets/imagotipo.png"
@@ -19,6 +19,10 @@ import contactIcon from "./../../assets/icons/contact-papperplane.svg"
 import CV from "./../../assets/CV 2023 Sergio Santiago Carmona.pdf"
 
 const About = () => {
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  });
   return (
     <>
 

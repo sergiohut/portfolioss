@@ -1,5 +1,6 @@
 import "./Home.css"
 
+import { useEffect } from "react"
 import { Link } from "react-scroll"
 
 import coding from "./../../assets/Hero Retro Coding.jpg"
@@ -17,7 +18,9 @@ import {sliderContent} from "./../../data/slider_content"
 
 
 const Home = () => {
-
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  });
 
 
   return (
