@@ -35,10 +35,10 @@ const About = () => {
               <button className="contactBtn CV">Curriculum<img className='icon' src={cvIcon}/></button> </a>
           </div>
           <div className='about_info'>
-            <h2> Hola!</h2>
+            <h2> !Hola!</h2>
             <p> 
             Soy <span className='bold_blue'>Sergio Santiago</span>, <span className='bold'>desarrollador web fullstack (MERN).</span> <br/><br/>
-            Formado previamente en  <span className='bold'>Publicidad y Marketing Digital</span>. Desde cuya perspectiva, he sido capaz de explorar el potencial de los medios digitales como valiosas herramientas de comunicación corporativa. <br/><br/>
+            Formado previamente en  <span className='bold'>Publicidad y Marketing Digital</span>. Desde esta perspectiva he sido capaz de explorar el potencial de los medios digitales como valiosas herramientas de comunicación corporativa. <br/><br/>
             Mi experiencia profesional, orientada a la <span className='bold'>atención al cliente y el soporte técnico de plataformas digitales</span>, me ha permitido también ponerme en el lugar del usuario.
             </p>
           </div>
