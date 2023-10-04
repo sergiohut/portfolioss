@@ -28,7 +28,7 @@ const Home = () => {
     <main className='hero' > 
 
     <div className='hero_info'>
-      <p>Bienvenidx, supongo que si has llegado hasta aquí será porque necesitas un desarrollador web fullstack. O quizás, simplemente querías curiosear, echarle un vistazo a mis trabajos y conocerme un poco más. <br/><br/>En cualquier caso espero que encuentres lo que buscas. </p>
+      <p>Bienvenidx. Supongo que si has llegado hasta aquí será porque necesitas un desarrollador web fullstack. O quizás simplemente querías curiosear, echarle un vistazo a mis trabajos y conocerme un poco más. <br/><br/>En cualquier caso espero que encuentres lo que buscas. </p>
       <div className='hero_btns'>
         <a href='mailto:sergiosantiagocarmona@gmail.es'>
           <button className='contactBtn'>Hablemos <img className='icon' src={contact_icon} alt="icono contacto"/></button>
