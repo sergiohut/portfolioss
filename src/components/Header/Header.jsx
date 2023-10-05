@@ -70,7 +70,7 @@ const Header = () => {
         </li>
         
         <li> <a href='https://github.com/sergiohut' target="_blank"> Github</a></li>
-        <li>  <a href='https://www.linkedin.com/in/sergiosantiagocarmona/' target="_blank">Linkedn</a></li>
+        <li>  <a href='https://www.linkedin.com/in/sergiosantiagocarmona/' target="_blank">LinkedIn</a></li>
 
       </ul>
 

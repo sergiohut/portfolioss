@@ -16,7 +16,7 @@ import MongoDBIcon from"./../../assets/icons/MongoDB-Logo.png"
 import gitIcon from"./../../assets/icons/git.png"
 import cvIcon from "./../../assets/icons/6721017.png"
 import contactIcon from "./../../assets/icons/contact-papperplane.svg"
-import CV from "./../../assets/CV 2023 Sergio Santiago Carmona.pdf"
+import CV from "./../../assets/Sergio Santiago CV.pdf"
 
 const About = () => {
 
@@ -38,8 +38,11 @@ const About = () => {
             <h2> !Hola!</h2>
             <p> 
             Soy <span className='bold_blue'>Sergio Santiago</span>, <span className='bold'>desarrollador web fullstack (MERN).</span> <br/><br/>
-            Formado previamente en  <span className='bold'>Publicidad y Marketing Digital</span>. Desde esta perspectiva he sido capaz de explorar el potencial de los medios digitales como valiosas herramientas de comunicación corporativa. <br/><br/>
-            Mi experiencia profesional, orientada a la <span className='bold'>atención al cliente y el soporte técnico de plataformas digitales</span>, me ha permitido también ponerme en el lugar del usuario.
+            Formado previamente en <span className='bold'> Publicidad y Marketing Digital</span>. Desde esta perspectiva
+            he sido capaz de explorar el potencial de los medios digitales como valiosas
+            herramientas de comunicación corporativa. <br/><br/> Mi pasión y curiosidad por el medio digital hizo que me iniciara de manera autodidacta en algunos lenguajes de
+            programación, descubriendo en el desarrollo web un camino profesional
+            estimulante, lleno de retos y aprendizajes.
             </p>
           </div>
         </div>

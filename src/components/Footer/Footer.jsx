@@ -1,7 +1,7 @@
 import "./Footer.css"
 
 import { NavLink } from "react-router-dom"
-import CV from "./../../assets/CV 2023 Sergio Santiago Carmona.pdf"
+import CV from "./../../assets/Sergio Santiago CV.pdf"
 
 const Footer = () => {
   return (
@@ -22,7 +22,7 @@ const Footer = () => {
 
     <div className='footer_social'>
         <a href='https://github.com/sergiohut' target="_blank">Github</a>
-        <a href='https://www.linkedin.com/in/sergiosantiagocarmona/' target="_blank">Linkedn</a>
+        <a href='https://www.linkedin.com/in/sergiosantiagocarmona/' target="_blank">LinkedIn</a>
         <a href={CV} target="_blank">
         <p>Curriculum</p></a>
     </div>
