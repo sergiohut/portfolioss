@@ -35,7 +35,9 @@ const CardProject = ({item}) => {
             </button>*/}
             <div>
         <a className="anchor" href={item.front} target="_blank">Repositorio Front</a><br></br>
-        {item.back? <a className="anchor" href={item.back} target="_blank">Repositorio Back</a> : ""}</div>
+        {item.back? <a className="anchor" href={item.back} target="_blank">Repositorio Back</a> : ""}
+        {item.deploy? <a className="anchor" href={item.deploy} target="_blank">App Desplegada</a> : ""}</div>
+        
 
 
         </section>

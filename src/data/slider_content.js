@@ -9,6 +9,7 @@ export const sliderContent = [
       tech: 'HTML5, CSS3, JavaScript, React',
       front: 'https://github.com/kareenadg/MARVEL_GROUP_project',
       back: null,
+      deploy: null
 
     },
     {
@@ -21,6 +22,19 @@ export const sliderContent = [
       tech: 'HTML5, CSS3, JavaScript, React, Node Js, Mongo DB',      
       front: 'https://github.com/virginia-zuror/_NeoVet_',
       back: 'https://github.com/virginia-zuror/_NeoVet_BackEnd',
+      deploy: null
     },
+    {
+      id: 3,
+      video:
+        'https://res.cloudinary.com/ddu2qdsdp/video/upload/v1698918364/Videos%20proyectos/V%C3%ADdeo_sin_t%C3%ADtulo_Hecho_con_Clipchamp_1_tvbdgo.mp4',
+      ref: "videoRef3",
+      title: 'My Store',
+      description: 'Esta aplicación web es una tienda de ropa en la que puedes añadir productos al carrito, consultarlo, modificar las cantidades de cada producto, eliminarlos del carrito o consultar el importe total de la compra. En cuanto a la lista de productos se pueden filtrar por categorias, hacer búsquedas por nombre de producto o categoria, así como ordenarlos por precio de menor a mayor, de mayor a menor y por más recientes.',      
+      front: null,
+      back: null,
+      deploy: "https://my-store-ssc.vercel.app/"
+    },
+    
   ];
   
