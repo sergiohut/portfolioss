@@ -30,7 +30,7 @@ export const sliderContent = [
         'https://res.cloudinary.com/ddu2qdsdp/video/upload/v1698918364/Videos%20proyectos/V%C3%ADdeo_sin_t%C3%ADtulo_Hecho_con_Clipchamp_1_tvbdgo.mp4',
       ref: "videoRef3",
       title: 'My Store',
-      description: 'Esta aplicación web es una tienda de ropa en la que puedes añadir productos al carrito, consultarlo, modificar las cantidades de cada producto, eliminarlos del carrito o consultar el importe total de la compra. En cuanto a la lista de productos se pueden filtrar por categorias, hacer búsquedas por nombre de producto o categoria, así como ordenarlos por precio de menor a mayor, de mayor a menor y por más recientes.',      
+      description: 'Esta aplicación web es una tienda de ropa en la que puedes añadir productos al carrito, modificar las cantidades de cada producto, eliminarlos o consultar el importe total de la compra. En cuanto a la lista de productos, se pueden filtrar por categorías, hacer búsquedas por nombre de producto o categoría, así como ordenarlos por precio de menor a mayor, de mayor a menor y por más recientes.',      
       front: null,
       back: null,
       deploy: "https://my-store-ssc.vercel.app/"
