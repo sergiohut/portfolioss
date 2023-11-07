@@ -34,7 +34,7 @@ const Header = () => {
 
   return (
     <>
-    <header className="slide-top">
+    <header >
 
       <nav className="navbar" id={stickyClass}>
       <div className="navbar_heading">
@@ -84,7 +84,7 @@ const Header = () => {
 
       
     </header>
-    <span className='dividerH slide-top'></span>
+    <span className='dividerH '></span>
 </>
   )
 }
