@@ -25,7 +25,7 @@ const Home = () => {
 
   return (
     <>
-    <main className='hero slide-top' > 
+    <main className='hero slide-topg' > 
 
     <div className='hero_info'>
       <p>Bienvenidx. Supongo que si has llegado hasta aquí será porque necesitas un desarrollador web fullstack. O quizás simplemente querías curiosear, echarle un vistazo a mis trabajos y conocerme un poco más. <br/><br/>En cualquier caso espero que encuentres lo que buscas. </p>
