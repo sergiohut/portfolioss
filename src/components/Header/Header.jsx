@@ -34,7 +34,7 @@ const Header = () => {
 
   return (
     <>
-    <header>
+    <header className="slide-top">
 
       <nav className="navbar" id={stickyClass}>
       <div className="navbar_heading">
