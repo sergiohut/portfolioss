@@ -84,7 +84,7 @@ const Header = () => {
 
       
     </header>
-    <span className='dividerH'></span>
+    <span className='dividerH slide-top'></span>
 </>
   )
 }
